@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!-- Background colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_yellow">#FFF9C4</color>
+    <color name="background_blue">#E3F2FD</color>
+    <color name="background_black">#212121</color>
+    
+    <!-- Text colors for different backgrounds -->
+    <color name="text_on_white">#212121</color>
+    <color name="text_on_yellow">#212121</color>
+    <color name="text_on_blue">#212121</color>
+    <color name="text_on_black">#FFFFFF</color>
+    
+    <!-- Todo highlight color -->
+    <color name="todo_highlight">#FF5252</color>
+    <color name="todo_background">#FFEBEE</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_light">#FFFFFF</color>
+    
+    <!-- Editor colors -->
+    <color name="editor_background">#FFFFFF</color>
+    <color name="editor_line">#E0E0E0</color>
+    <color name="editor_text">#212121</color>
+    
+    <!-- List item colors -->
+    <color name="list_item_background">#FFFFFF</color>
+    <color name="list_item_selected">#E3F2FD</color>
+</resources>
+

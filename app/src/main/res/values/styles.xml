@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application theme - using system theme for compatibility -->
+    <!-- Note: This theme is defined but may not be used if activities specify their own theme -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowBackground">@color/background_light</item>
+    </style>
+    
+    <!-- List item style -->
+    <style name="NoteListItem">
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/list_item_background</item>
+    </style>
+    
+    <!-- Editor style -->
+    <style name="NoteEditor">
+        <item name="android:background">@color/editor_background</item>
+        <item name="android:textColor">@color/editor_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+    </style>
+</resources>
+
