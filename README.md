@@ -43,10 +43,7 @@ NotePad-main/
 
 **截图位置：**
 
-
-> ```markdown
-> ![时间戳显示](screenshots/timestamp_display.png)
-> ```
+![时间戳显示](screenshots/timestamp_display.png)
 
 **关键代码位置：**
 - `NotesList.java` 第 71-75 行：PROJECTION 数组添加了 `COLUMN_NAME_MODIFICATION_DATE` 字段
@@ -67,9 +64,8 @@ NotePad-main/
 - 支持在标题和内容中同时搜索
 
 **截图位置：**
-> ```markdown
-> ![搜索功能](screenshots/search_function.png)
-> ```
+
+![搜索功能](screenshots/search_function.png)
 
 **关键代码位置：**
 - `list_options_menu.xml` 第 17-21 行：添加搜索菜单项
@@ -96,18 +92,12 @@ NotePad-main/
 - 根据背景颜色自动调整文字颜色
 
 **截图位置：**
-> 请在此处插入截图：
-> 
-> 
 
->    ```markdown
->    ![背景颜色切换](screenshots/background_color_dialog.png)
->    ```
-> 
-> 3. 不同背景颜色效果（白色、黄色、蓝色、黑色）
->    ```markdown
->    ![白色背景](screenshots/background_white.png)
->    ```
+1. 背景颜色选择对话框
+![背景颜色切换](screenshots/background_color_dialog.png)
+
+2. 不同背景颜色效果
+![白色背景](screenshots/background_white.png)
 
 **关键代码位置：**
 - `colors.xml` 第 1-27 行：定义所有颜色资源
@@ -136,27 +126,18 @@ NotePad-main/
 - 支持"全部"选项显示所有笔记
 
 **截图位置：**
-> 请在此处插入截图：
-> 
-> 1. 笔记列表（带分类标签）
->    ```markdown
->    ![分类标签显示](screenshots/category_labels.png)
->    ```
-> 
-> 2. 编辑器中的分类选择对话框
->    ```markdown
->    ![分类选择](screenshots/category_selection.png)
->    ```
-> 
-> 3. 主页的分类筛选对话框
->    ```markdown
->    ![分类筛选](screenshots/category_filter.png)
->    ```
-> 
-> 4. 筛选后的笔记列表（例如只显示 Work 分类）
->    ```markdown
->    ![分类筛选结果](screenshots/category_filtered_result.png)
->    ```
+
+1. 笔记列表（带分类标签）
+![分类标签显示](screenshots/category_labels.png)
+
+2. 编辑器中的分类选择对话框
+![分类选择](screenshots/category_selection.png)
+
+3. 主页的分类筛选对话框
+![分类筛选](screenshots/category_filter.png)
+
+4. 筛选后的笔记列表（例如只显示 Work 分类）
+![分类筛选结果](screenshots/category_filtered_result.png)
 
 **关键代码位置：**
 - `NotePad.java` 第 153-156 行：定义 `COLUMN_NAME_CATEGORY` 常量
@@ -188,13 +169,9 @@ NotePad-main/
 - Toast 提示显示文件保存位置
 
 **截图位置：**
-> 请在此处插入截图：
-> 
-> 1. 编辑器中的导出菜单项
->    ```markdown
->    ![导出菜单](screenshots/export_menu.png)
->    ``
->    ```
+
+1. 编辑器中的导出菜单项
+![导出菜单](screenshots/export_menu.png)
 
 **关键代码位置：**
 - `editor_options_menu.xml` 第 18-21 行：添加导出菜单项
@@ -222,22 +199,15 @@ NotePad-main/
 - 编辑器菜单中"Mark as Todo"选项可勾选
 
 **截图位置：**
-> 请在此处插入截图：
-> 
-> 1. 笔记列表（待办笔记置顶并标红显示）
->    ```markdown
->    ![待办笔记置顶](screenshots/todo_top_red.png)
->    ```
-> 
-> 2. 编辑器中的"Mark as Todo"菜单项（已勾选状态）
->    ```markdown
->    ![待办菜单项](screenshots/todo_menu_checked.png)
->    ```
-> 
-> 3. 切换待办状态后的列表变化
->    ```markdown
->    ![待办状态切换](screenshots/todo_toggle.png)
->    ```
+
+1. 笔记列表（待办笔记置顶并标红显示）
+![待办笔记置顶](screenshots/todo_top_red.png)
+
+2. 编辑器中的"Mark as Todo"菜单项（已勾选状态）
+![待办菜单项](screenshots/todo_menu_checked.png)
+
+3. 切换待办状态后的列表变化
+![待办状态切换](screenshots/todo_toggle.png)
 
 **关键代码位置：**
 - `NotePad.java` 第 158-161 行：定义 `COLUMN_NAME_IS_TODO` 常量
